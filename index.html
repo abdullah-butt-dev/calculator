@@ -3,55 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Calculator</title>
+  <title>Calculator | Modern Calculator</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
 </head>
 <body>
-  
-  <div class="calculator">
-    <div class="display js-display">
-      0
-    </div>
-
-    <div class="keys">
-
+  <div class="app">
+    <div class="calculator">
+      <div class="brand">
+        <span class="brand-icon">🧮</span>
+        <span class="brand-text">Calculator</span>
+      </div>
       
-      <div class="rows">
-        <button class="seven">7</button>
-        <button class="eight">8</button>
-        <button class="nine">9</button>
-        <button class="divide operation">/</button>
+      <div class="display js-display">
+        0
       </div>
 
-    <div class="rows">
-      <button class="four">4</button>
-      <button class="five">5</button>
-      <button class="six">6</button>
-      <button class="multiply operation">*</button>
+      <div class="keys">
+        <div class="rows">
+          <button class="seven">7</button>
+          <button class="eight">8</button>
+          <button class="nine">9</button>
+          <button class="divide operation">/</button>
+        </div>
+
+        <div class="rows">
+          <button class="four">4</button>
+          <button class="five">5</button>
+          <button class="six">6</button>
+          <button class="multiply operation">*</button>
+        </div>
+        
+        <div class="rows">
+          <button class="one">1</button>
+          <button class="two">2</button>
+          <button class="three">3</button>
+          <button class="minus operation">-</button>
+        </div>
+
+        <div class="rows">
+          <button class="zero">0</button>
+          <button class="clear">C</button>
+          <button class="equal">=</button>
+          <button class="plus operation">+</button>
+        </div>
+        
+        <div class="rows">
+          <button class="backspace">⌫</button>
+          <button class="dot">.</button>
+        </div>
+      </div>
     </div>
     
-    <div class="rows">
-      <button class="one">1</button>
-      <button class="two">2</button>
-      <button class="three">3</button>
-      <button class="minus operation">-</button>
-    </div>
-
-    <div class="rows">
-      <button class="zero">0</button>
-      <button class="clear">clear</button>
-      <button class="equal">=</button>
-      <button class="plus operation">+</button>
-    </div>
-    
-    <div class="rows">
-      <button class="backspace">X</button>
-      <button class="dot">.</button>
-    </div>
-  </div>
+    <footer class="footer">
+      <p>The Odin Project • Calculator</p>
+    </footer>
   </div>
 
-  <script src="script.js">
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
